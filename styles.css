@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Avigea';
+    src: url('https://stefanh-98.github.io/my-fonts/Avigea.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Avigea', sans-serif;
+}
