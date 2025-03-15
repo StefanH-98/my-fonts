@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Avigea';
-    src: url('https://stefanh-98.github.io/my-fonts/Avigea.otf') format('opentype'),
-         url('https://stefanh-98.github.io/my-fonts/Avigea.woff2') format('woff2'),
-         url('https://stefanh-98.github.io/my-fonts/Avigea.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/StefanH-98/my-fonts/main/Avigea.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/StefanH-98/my-fonts/main/Avigea.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-body {
-    font-family: 'Avigea', sans-serif;
+/* Apply font with a fallback */
+body, h1, h2, h3, p {
+    font-family: 'Avigea', Arial, sans-serif !important;
 }
